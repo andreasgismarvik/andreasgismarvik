@@ -1,0 +1,154 @@
+body {
+    margin-top: 300px;
+    text-align: center;
+}
+a{
+    text-decoration: inherit;
+}
+a {
+    position: absolute;
+    color: purple;
+    font-family: "Georgia";
+    font-weight: 100;
+    font-size: 80px;
+    text-align: center;
+
+    border: solid 2px purple;
+    border-radius: 50px;
+
+    padding: 10px 80px;
+
+    transition-duration: 300ms;
+}
+a:hover {
+    background: lightpink;
+    color: purple;
+    border: solid 2px purple
+}
+.bakgrunn {
+    position: absolute;
+    left: 0%;
+    bottom: 2%;
+    width: 100%;
+    height: 98%;
+    background: url("kake.png");
+    background-size: cover;
+    z-index: -1;
+}
+.bunntekst {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background: #939393;
+    font-size: 20px;
+    font-style: black;
+    text-align: left;
+    font-family: "Georgia";
+}
+
+#clickhere {
+    position: absolute;
+    text-align: center;
+    margin-top: 120px;
+    right: 33%;
+
+    font-family: "Georgia";
+    color: grey;
+
+}
+
+html {height: 100%;overflow:hidden}
+
+body {
+    background: 
+-webkit-linear-gradient(DarkSlateGray,Cyan);
+    background: 
+     -o-linear-gradient(DarkSlateGray,Cyan);
+    background: 
+   -moz-linear-gradient(DarkSlateGray,Cyan);
+    background: 
+        linear-gradient(DarkSlateGray,Cyan);
+    min-height: 100%;
+}
+
+.image{
+  width: 310px;
+  height: 300px;
+  background: url(muffins.jpg);
+  background-position: -4960px;
+  position: absolute; 
+  margin: auto; 
+  top: 0; left: 0; bottom: 0; right: 0;
+  
+  -webkit-animation-name: gif;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-timing-function: steps(17,start);
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+
+  -moz-animation: gif 1s steps(17,start) 1.5s 1 forwards;
+  -ms-animation: gif 1s steps(17,start) 1.5s 1 forwards;
+  -o-animation: gif 1s steps(17,start) 1.5s 1 forwards;
+  animation: gif 1s steps(17,start) 1.5s 1 forwards;
+}
+  
+  @-webkit-keyframes gif{
+  0% {background-position: -5270px}
+  100% {background-position: 1px}
+  }
+
+  @-moz-keyframes gif{
+  from{background-position: -5270px}
+  to{background-position: 1px}
+  }
+
+  @-ms-keyframes gif{
+  from{background-position: -5270px}
+  to{background-position: 1px}
+  }
+
+  @-o-keyframes gif{
+  from{background-position: -5270px}
+  to{background-position: 1px}
+  }
+
+  @keyframes gif{
+  from{background-position: -5270px}
+  to{background-position: 0}
+  }
+
+
+
+:root {
+    --bakgrunn: rgba(255, 255, 255, 0.72);
+    }
+     
+.slideshow { 
+    position: absolute;
+    left: 30em;
+    top: 30em;
+    bottom: 30em;
+    width: 30em;
+    height: 30em;
+    border: 5px solid gray;
+    border-radius: 5em;
+    background-color: var(--bakgrunn);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation: slideshow 2s steps(1) infinite alternate;
+
+    margin: -450px;
+    }
+     
+    @keyframes slideshow {
+    0% { background-image: url("cake.png")}
+    50% { background-image: url("muffins.jpg")}
+    }
+    
+
+
+  

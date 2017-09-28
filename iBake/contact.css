@@ -1,0 +1,164 @@
+body {
+    background: url("cream_surface_texture_whipped_cream_93358_1920x1080.jpg");
+    background-size: cover;
+    font-family: "Verdana";
+    font-size: 20px;
+    margin: 0;
+    line-height: 24px;
+    color: #000000;
+    
+}
+    
+.navbar {
+        text-align: center;
+        width: 100%;
+        background: purple;
+        opacity: 0.6;
+}
+    
+.navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: relative;
+}
+    
+.navbar ul li a {
+        display: block;
+        padding: 25px;
+        color: white;
+        text-decoration: none;
+        width:150px;
+}
+    
+.navbar ul:after {
+        content: "";clear: both;
+        display: block;
+}
+    
+.navbar ul li {
+        float: left;
+        list-style: none;
+}
+    
+.navbar ul ul {
+        display: none;
+}
+    
+.navbar ul li:hover > ul {
+        display: block;
+}
+    
+.navbar ul li:hover {
+        background: black;
+        transition: 0.9s;
+}
+    
+.navbar ul li:hover a {
+        color: white;
+}
+    
+.navbar ul ul {
+        background: black;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 100%;
+}
+    
+.navbar ul ul li {
+        float: none;
+        position: relative;
+}
+    
+.navbar ul ul li a {
+        padding: 25px;
+        color: white;
+        width: 300px;
+        text-align: left;
+}
+    
+.navbar ul ul li a:hover {
+        background: purple;
+        color: black;
+        transition: 0.9s;
+    
+}
+    
+.logo {
+        position: absolute;
+        color: #000000;
+        font-family: "Georgia";
+        font-weight: 140;
+        font-size: 45px;
+        text-align: right;
+        margin-top: -2px;
+    
+        padding: 25px 340px;
+        letter-spacing: 1px;
+    
+}
+    
+.bunntekst {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 5%;
+        background: #878787;
+        font-size: 20px;
+        font-style: black;
+        text-align: left;
+        font-family: "Georgia";
+}
+    
+#contacttable {
+    position: absolute;
+    text-align: center;
+    padding: 115px 320px;
+}
+
+#skjema {
+    position: relative;
+    text-align: left;
+    background: rgba(255, 0, 173, 0.38);
+    border-style: solid;
+    border-width: 2px;
+    margin: 30px
+}
+
+.klageknapp {
+        font-family: "verdana";
+        font-size: 20px;
+        color: #000000;
+        background-color: rgba(164, 0, 136, 0.61);
+        text-align: right;
+        padding: 20px 40px;
+
+}
+
+button {
+        color: purple;
+        border: 2px solid black;
+        box-shadow: 3px 3px 3px black;
+        border-radius: 10px;
+        outline: none;
+        padding: 10px 20px
+}
+
+button:hover {
+        background-color: pink;
+        color: white;
+        outline: none;  
+}
+
+button:active {
+        transform: translate(3px,3px);
+        box-shadow: none;
+        outline: none;  
+}
+
+
+    
+    
+    

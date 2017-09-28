@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<title>Contact</title>
+  <head>    
+<meta charset="UTF-8">
+<link rel="stylesheet" href="contact.css">
+  </head>
+
+  <body>
+<div id="contacttable">
+        <table style="width:100%">
+        <table border = 3 bordercolor = black align = center>
+            <tr>
+                <td colspan = 4><img src="phone.png" alt="" border=0 height=50 width=50></img></td>
+                <td>93278857</td> 
+            </tr>
+             <tr>
+                <td colspan = 4><img src="email.png" alt="" border=0 height=50 width=50></img></td>
+                <td>Andreasgismarvik@hotmail.com</td> 
+            </tr>
+              </table>
+</div>
+                
+
+<div class="logo">
+    Contact
+</div>
+<div class="navbar">
+  <ul>
+    <li><a href="side2.html">Back</a></li>
+
+  </ul>
+</div>
+
+<div class="bunntekst">
+Copyright ©
+</div>
+
+<div id="skjema"
+<form id="skjema">
+    <br><label> First Name <input type="name"></label>
+    <br><label> Surname <input type="text"></label>
+    <br><label> Phone <input type="text"></label>
+    <br><label> E-mail <input type="text"></label>
+    <br><button id="save" type="button">Save</button>
+
+<script>
+    let btn = document.getElementById("save");
+    btn.addEventListener("click", saveData);
+        
+    function saveData() {
+                let First = document.getElementById("save").value;
+                alert("Could not save")
+}
+</script>
+</div>
+
+<div class="klageknapp">
+  Out of order
+  <button id="Complain" type="button"> Complain
+</div>
+
+</body>
+
+</html>

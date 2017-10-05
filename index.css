@@ -1,0 +1,32 @@
+body {
+    background: url(thesimpsons.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+p {
+    color: #FF0000;
+    font-size: 2em;
+    font-family: "Times New Roman"; 
+}
+
+#innhold {
+    font-size: 30px;    
+}
+
+li {
+    list-style-type: none;
+    
+
+}
+
+li a {
+    text-decoration: none;
+    color: #D80000;
+}
+
+li a:hover {
+    color: white;
+    font-size: 3em;
+}

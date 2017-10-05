@@ -25,7 +25,7 @@ a:hover {
     color: purple;
     border: solid 2px purple
 }
-.bakgrunn {
+#bakgrunn {
     position: absolute;
     left: 0%;
     bottom: 2%;
@@ -35,7 +35,7 @@ a:hover {
     background-size: cover;
     z-index: -1;
 }
-.bunntekst {
+#bunntekst {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -79,19 +79,31 @@ div div::first-letter {
 
 .video {
     position: absolute;
-    padding: 50px;
-    margin: 2px;
+    margin: 2px
 }
 
 .knapp {
-    padding: 250px
+    padding: 10px;
 }
 
 #button {
     width:450px;
     height:450px;
-    position:relative;
-    top:48px;
+    position: absolute;
+
     margin:0 auto;
-    text-align:center;
+    text-align:left;
+}
+
+#textbox {
+    position: absolute;
+    top: 250px;     
+    left: 500px;
+    bottom: 100px;   
+    right: 250px;
+
+    color: purple; 
+    background: url("cream_surface_texture_whipped_cream_93358_1920x1080.jpg");
+    font-size: 15px;
+    border: 2px solid black;
 }

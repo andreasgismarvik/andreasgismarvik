@@ -23,7 +23,7 @@ a {
 a:hover {
     background: lightpink;
     color: purple;
-    border: solid 2px purple
+    border: solid 2px purple;
 }
 .bakgrunn {
     position: absolute;

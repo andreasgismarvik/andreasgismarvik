@@ -39,10 +39,11 @@ Copyright ©
 
 <div id="skjema"
 <form id="skjema">
-    <br><label> First Name <input type="name"></label>
+    <br><label> First Name <input id="name"></label>
     <br><label> Surname <input type="text"></label>
     <br><label> Phone <input type="text"></label>
     <br><label> E-mail <input type="text"></label>
+
     <br><button id="save" type="button">Save</button>
 
 <script>
@@ -50,8 +51,8 @@ Copyright ©
     btn.addEventListener("click", saveData);
         
     function saveData() {
-                let First = document.getElementById("save").value;
-                alert("Could not save")
+                let name = document.getElementById("name").value;
+                alert("Hi " + name + ", Your Information Could Not Be Saved At The Moment.");
 }
 </script>
 </div>

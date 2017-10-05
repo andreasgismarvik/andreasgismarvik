@@ -2,17 +2,18 @@ body {
     background: url(thesimpsons.jpg);
     position: absolute;
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;     
 }
 
-p {
-    color: #FF0000;
-    font-size: 2em;
+h1 {
+    color: rgb(255, 189, 0);
+    font-size: 3em;
     font-family: "Times New Roman"; 
+    
 }
 
 #innhold {
-    font-size: 30px;    
+    font-size: 30px; 
 }
 
 li {
@@ -23,10 +24,11 @@ li {
 
 li a {
     text-decoration: none;
-    color: #D80000;
+    color: #FFD200;
 }
 
 li a:hover {
     color: white;
-    font-size: 3em;
+    font-size: 2em;
+    font-style: 
 }

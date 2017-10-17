@@ -1,46 +1,44 @@
 body {
-    padding: 2em;
+    padding: 5em;
+    background: url(binary.jpg)
+  }
+
+h1 {
+    color: white;
+    background: black;
+    text-align: center;
+  }
+
+li a {
+    background: #00BDFF;
   }
   
   table.table { width: 100%; }
   
-  .table th, .table td { 
+.table th, .table td { 
     text-align: left; 
     padding: 0.25em;
   }
   
-  .table tr { 
+.table tr { 
     border-bottom: 1px solid #DDD;
   }
   td.edit-buttons { text-align: right; }
-  button { 
-    border-radius: 3px; 
-    border: none; 
-    margin: 0 0.25em; 
-    transition: all 0.3s;
-  }
+
   
-  button:hover { 
-    box-shadow: 0 0 4px rgba(3,3,3,0.8); 
-    opacity: 0.9;
-  }
-  
-  button.edit { background: #6F9; }
-  button.delete { background: #F69; }
-  
-  @media screen and (max-width: 800px) {
-    tr { 
+@media screen and (max-width: 800px) {
+  tr { 
       display: flex; 
       flex-direction: row;
       flex-wrap: wrap;
       margin: 0.5em 0;
       border: 1px solid rgba(3,3,3,0.2);
     }
-    td, th {
+  td, th {
       flex: 1 1 150px;
       border: 0.5px solid rgba(3,3,3,0.2);
     }
-    td.edit-buttons, td.empty {
+  td.edit-buttons, td.empty {
       /*flex: 1 0 90%;
       text-align: center;*/
     }
@@ -56,8 +54,10 @@ body {
   }
 
 #main div {
-      background: lightblue;
+      background: #00BDFF;
       width: 20em;
-      height: 20em;
+      min-height: 20em;
       margin: 1em;
+      text-align: center;
+      padding: 0.5em;
   }

@@ -32,3 +32,27 @@ li a:hover {
     font-size: 2em;
     font-style: 
 }
+
+#homer {
+    position: absolute;
+    z-index: -1;
+    margin: 400px;
+    animation: gaaTur 5s linear infinite;
+
+
+    text-align: center;
+}
+
+@keyframes gaaTur {
+    0%   {top: 0px; left: 10%;}
+    100%  {top: 0px; left: 1000px;}
+}
+
+#bart {
+    position: absolute;
+    top: 350px;
+    left: 15px;
+}
+
+     
+

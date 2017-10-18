@@ -39,7 +39,7 @@ li a:hover {
     left: 850px;
 
     z-index: -1;
-    animation: gaaTur 2s linear infinite;
+    animation: gaaTur 1.5s linear infinite;
 
 
     text-align: center;

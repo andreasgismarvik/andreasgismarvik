@@ -8,8 +8,8 @@ body {
 
 h1 {
     font-size: 2em;
-    color: #005EFF;
-    background: white;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.47);
 }
 
 ul {
@@ -17,20 +17,20 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #000000;
 }
 
 li a {
     display: block;
-    color: #000;
+    color: #00BCFF;
     padding: 8px 16px;
     text-decoration: none;
 }
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: #009DFF;
-    color: white;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .active {
@@ -39,7 +39,7 @@ li a:hover {
 }
 
 ul {
-    border: 1px solid #555;
+    border: 1px solid #00BCFF;
 }
 
 li {

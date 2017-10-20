@@ -54,7 +54,7 @@ li a {
   }
 
 #main div {
-      background: #00BDFF;
+      background: rgba(0, 189, 255, 0.70);
       width: 20em;
       min-height: 20em;
       margin: 1em;

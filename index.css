@@ -36,25 +36,36 @@ li a:hover {
 
 #homer {
     position: absolute;
-    top: 60px;
-    left: 850px;
+    top: 80%;
+    bottom: 20%;
+    left: 25%;
+    right: 75%;
 
-    z-index: -1;
-    animation: gaaTur 1.5s linear infinite;
+    animation: gaaTur 3.5s linear infinite;
 
-
-    text-align: center;
 }
 
 @keyframes gaaTur {
-    0% {}
-    100% 
+0% {top: 80%;
+    bottom: 20%;
+    left: 20%;
+    right: 80%;}
+
+50% {top: 85%;
+    bottom: 15%;
+    left: 35%;
+    right: 65%;}
+
+100% {top: 75%;
+    bottom: 25%;
+    left: 45%;
+    right: 55%;}
 }
 
 #bart {
     position: absolute;
     top: 350px;
-    left: 15px;
+    left: 25px;
 }
 
 #intro {

@@ -41,11 +41,11 @@ li a:hover {
     left: 25%;
     right: 75%;
 
-    animation: gaaTur 3.5s linear infinite;
+    animation: springe 3.5s linear infinite;
 
 }
 
-@keyframes gaaTur {
+@keyframes springe {
 0% {top: 80%;
     bottom: 20%;
     left: 20%;
@@ -73,6 +73,21 @@ li a:hover {
     top: 40px;
     left: 500px;
 
+}
+
+#cartman {
+    position: absolute;
+    top: 80%;
+    bottom: 20%;
+    left: 80%;
+    right: 20%;
+
+    animation: bevegelse 0.3s linear infinite; 
+}
+
+@keyframes bevegelse {
+    50% {transform: rotate(3deg);}    
+    100% {transform: rotate(-3deg);}
 }
 
 

@@ -36,26 +36,24 @@ li a:hover {
 
 #homer {
     position: absolute;
-    top: 70%;
-    bottom: 30%;
-    left: 20%;
-    right: 80%;
+    top: 67%;
+    bottom: 33%;
+    left: 22%;
+    right: 78%;
 
-    animation: springe 3.5s linear infinite;
+    animation: linear 3s springe infinite;
 
 }
 
 @keyframes springe {
-0% {top: 70%;
-    bottom: 30%;
-    left: 20%;
-    right: 80%;}
+0% {top: 67%;
+    bottom: 33%;
+    left: 22%;
+    right: 78%;}
 
-50% {top: 75%;
-    bottom: 25%;
-    left: 20%%;
-    right: 80%%;}
-
+50% {top: 73%;
+    bottom: 27%;}
+    
 100% {top: 65%;
     bottom: 35%;
     left: 45%;

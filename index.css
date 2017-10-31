@@ -1,8 +1,6 @@
 body {
     background: url(thesimpsons.jpg);
-    position: relative;
     background-repeat: no-repeat;
-    min-height: 500px;
     background-size: cover;     
 }
 
@@ -38,28 +36,28 @@ li a:hover {
 
 #homer {
     position: absolute;
-    top: 80%;
-    bottom: 20%;
-    left: 25%;
-    right: 75%;
+    top: 70%;
+    bottom: 30%;
+    left: 20%;
+    right: 80%;
 
     animation: springe 3.5s linear infinite;
 
 }
 
 @keyframes springe {
-0% {top: 80%;
-    bottom: 20%;
+0% {top: 70%;
+    bottom: 30%;
     left: 20%;
     right: 80%;}
 
-50% {top: 85%;
-    bottom: 15%;
-    left: 35%;
-    right: 65%;}
-
-100% {top: 75%;
+50% {top: 75%;
     bottom: 25%;
+    left: 20%%;
+    right: 80%%;}
+
+100% {top: 65%;
+    bottom: 35%;
     left: 45%;
     right: 55%;}
 }
@@ -72,8 +70,9 @@ li a:hover {
 
 #intro {
     position: absolute;
-    top: 40px;
-    left: 500px;
+    top: 10%;
+    left: 40%;
+    bottom: 90%;
 
 }
 
@@ -85,7 +84,7 @@ li a:hover {
 #nabohoyre {
     position: absolute;
     right: 10px;
-    bottom: 10px;
+    bottom: 20px;
     text-decoration: none;
 }
 
@@ -113,7 +112,7 @@ li a:hover {
 #nabovenstre {
     position: absolute;
     left: 10px;
-    bottom: 10px;
+    bottom: 20px;
     text-decoration: none;
 }
 

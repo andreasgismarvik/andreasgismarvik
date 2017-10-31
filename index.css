@@ -81,6 +81,7 @@ li a:hover {
     bottom: 20%;
     left: 80%;
     right: 20%;
+    background-attachment: fixed;
 
     animation: bevegelse 0.3s linear infinite; 
 }
@@ -88,6 +89,10 @@ li a:hover {
 @keyframes bevegelse {
     50% {transform: rotate(3deg);}    
     100% {transform: rotate(-3deg);}
+}
+
+#nabo {
+    position: absolute;
 }
 
 

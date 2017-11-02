@@ -1,0 +1,74 @@
+.hexagon {
+    position: relative;
+    width: 50px; 
+    height: 28.87px;
+    margin: 14.43px 0;
+    background-image: url(https://media.istockphoto.com/photos/green-forest-foliage-aerial-view-woodland-tree-canopy-nature-picture-id598520904?k=6&m=598520904&s=612x612&w=0&h=uxyrmCQl83-iU74jTJ-fDX-7r0JoZp6McjYnIdRcstY=);
+    background-size: auto 56.5803px;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border-left: solid 0.5px #bcb9b5;
+    border-right: solid 0.5px #bcb9b5;
+  }
+  
+  .hexTop,
+  .hexBottom {
+    position: absolute;
+    z-index: 1;
+    width: 35.36px;
+    height: 35.36px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 6.82px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  /*counter transform the bg image on the caps*/
+  .hexTop:after,
+  .hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 49.0000px;
+    height: 28.290163190291665px;
+    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-14.1451px);
+    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-14.1451px);
+    transform:          rotate(45deg) scaleY(1.7321) translateY(-14.1451px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+  }
+  
+  .hexTop {
+    top: -17.6777px;
+    border-top: solid 0.7071px #bcb9b5;
+    border-right: solid 0.7071px #bcb9b5;
+  }
+  
+  .hexTop:after {
+    background-position: center top;
+  }
+  
+  .hexBottom {
+    bottom: -17.6777px;
+    border-bottom: solid 0.7071px #bcb9b5;
+    border-left: solid 0.7071px #bcb9b5;
+  }
+  
+  .hexBottom:after {
+    background-position: center bottom;
+  }
+  
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    top: 0.2887px;
+    left: 0;
+    width: 49.0000px;
+    height: 28.2902px;
+    z-index: 2;
+    background: inherit;
+  }

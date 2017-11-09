@@ -72,3 +72,19 @@
     z-index: 2;
     background: inherit;
   }
+
+  div div p::first-letter {
+    color: green;
+  }
+
+div div p + p::first-letter {
+    color: yellow;
+  }
+  
+  div, div + p:last-of-type	 {
+    color: blue;
+  }
+  
+div div p + p:last-of-type	{
+  color: red;
+}

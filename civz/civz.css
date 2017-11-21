@@ -1,0 +1,38 @@
+:root {
+    --fyll:10px;
+}
+
+header {
+    color: #FF0000;
+    text-shadow: 3px 2px #000000;
+    padding: var(--fyll);
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
+    font-size: 1.5em;    
+}
+
+p {
+    color: darkgrey;
+    text-shadow: 2px 2px #000000;
+}
+
+article {
+    font-size: 1.1em;
+    padding: var(--fyll);
+}
+
+#liste {
+    width: 90vw;
+    min-height: 50vh;
+    border: 2px solid darkgrey;
+    padding: 1em;
+}
+
+.land {
+  background-color: whitesmoke;
+}
+
+body {
+    background-color: lightgrey;
+}

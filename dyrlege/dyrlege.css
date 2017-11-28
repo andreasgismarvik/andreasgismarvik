@@ -3,8 +3,8 @@
 }
 
 header {
-    color: #FF0000;
-    text-shadow: 3px 2px #000000;
+    color: #000000;
+    text-shadow: 3px 2px #FFFFFF;
     padding: var(--fyll);
     padding-bottom: 20px;
     text-align: center;
@@ -13,7 +13,7 @@ header {
 }
 
 p {
-    color: darkgrey;
+    color: #FFFFFF;
     text-shadow: 2px 2px #000000;
 }
 
@@ -25,16 +25,14 @@ article {
 #liste {
     width: 90vw;
     min-height: 50vh;
-    border: 2px solid darkgrey;
+    border: 2px solid #000000;
     padding: 1em;
 }
 
-.land {
+.kunde {
   background-color: whitesmoke;
 }
 
 body {
-    background-image: url("http://cdn.pcwallart.com/images/castle-stone-wall-wallpaper-3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;  
+    background-color: lightgrey;
 }

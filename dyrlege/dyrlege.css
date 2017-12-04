@@ -26,7 +26,9 @@ article {
     width: 90vw;
     min-height: 50vh;
     border: 2px solid #000000;
-    padding: 1em;
+    margin-left: 35px;
+    text-align: center;
+
 }
 
 .kunde {
@@ -35,4 +37,12 @@ article {
 
 body {
     background-color: lightgrey;
+}
+
+#liste {
+    font-size: 1.3em;
+}
+
+#dyr {
+    border: 1px solid black;
 }

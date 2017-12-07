@@ -8,15 +8,14 @@ body {
 h1 {
     padding-left: 10px;
     font-size: 5em;
-    text-shadow: 5px 2px #FFA800;
-    color: rgb(255, 221, 0);
+    text-shadow: 5px 2px #9F6800;
+    color: rgb(255, 210, 0);
     font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
     margin-left: auto; ditto for right; 
 }
 
 #innhold {
     font-size: 30px; 
-    
 }
 
 li {
@@ -27,7 +26,8 @@ li {
 
 li a {
     text-decoration: none;
-    color: #FFD200;
+    text-shadow: 3px 2px #442C00;
+    color: rgb(255, 200, 0);
 }
 
 li a:hover {

@@ -27,40 +27,45 @@
 
 
 <div id="bestillingsskjema">
-
-<fieldset>
-<legend>Hvilket produkt ønkser du å kjøpe?</legend>
-<input type="text">
-<legend>Antall</legend>
-<input type="text">
-</fieldset>
-
-<p>
-    <label>Navn
-    <input type="text">
-    </label> 
-    </p>
-
-<p>
-    <label>Adresse
-    <input type="text">
-    </label> 
-    </p>
-    
+       Velg varer 
+    <select>
+            <option value="seilbaat">Seilbåt</option>
+            <option value="piratskip">Piratskip</option>
+    </select>
     <p>
-    <label>Telefon 
-    <input type="tel">
-    </label>
-    </p>
-    
-    <p>
-    <label>Epost 
-    <input type="email">
-    </label>
+        <form>
+            <input type="antall" value="Antall">
+        </form> 
     </p>
 
-<p><button>Bestill</button></p>
-</form>  
+    <p>
+        <form>
+            <input type="adresse" value="Adresse">
+        </form> 
+    </p>
+
+    <p>Betaling: 
+        <form>
+            <input type="radio" name="betal" value="visa" checked> Visa
+            <input type="radio" name="betal" value="mastercard"> MasterCard
+            <input type="radio" name="betal" value="bitcoin"> Bitcoin
+        </form>
+    </p>
+    <p>Er det en gave?
+            <form>
+                <input type="radio" name="ja/nei" value="ja" checked>Ja
+                <input type="radio" name="ja/nei" value="nei">Nei
+            </form>
+    </p>
+    <p>
+        <form method="get">
+            <button type="bestill" value="Bestill">Bestill</button>
+        </form>
+    </p>
+    <div>
+        
+    </div>
+</div>
 
 <div id="baattur"></div>
 

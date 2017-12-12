@@ -2,9 +2,10 @@
 #snow {
     position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 50%;
-    background-image: url("vinter.png");
+    height: 300px;
+    width: 800px;
+
+    background-image: url("himmel.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -13,9 +14,9 @@
 }
 
 #sky {
-    background: -webkit-linear-gradient(black, darkblue, white);
-    width: 100%;
-    height: 50%;
+    background: -webkit-linear-gradient(black, #0009FF, #483DBB);
+    width: 800px;
+    height: 350px;
     display: grid;
     grid-template-columns: repeat(13, 1fr);
     grid-gap: 40px;
@@ -27,22 +28,64 @@
     height: 10px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#FFD200), to(#FFFFFF));
     border-radius: 50%;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 
 #nissen {
     position: absolute;
-    animation: tur 10s linear infinite;
+    animation: tur 8s linear infinite;
     font-size: 3em;
     color: red;
     
 }
 
 @keyframes tur {
-    0% {top:150px; left:1%; transform: rotateY(0deg);}
-    49% {top:150px; left:90%; transform: rotateY(0deg);}
-    50% {top:150px; left:90%; transform: rotateY(180deg);}
-    99% {top:150px; left:1%; transform: rotateY(180deg);}
-    100% {top:150px; left:1%; transform: rotateY(0deg);}
+    0% {left: 0px; top: 20%; opacity: 1;}
+    50% {left: 40%; top: 20%; opacity: 1;}
+    100% {left: 50%; top: 20%; opacity: 0;}
+    
 }
+
+.pakke {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url("pakke.png");
+    background-size: contain;
+
+    animation: drop 2s linear; 
+    animation-fill-mode: forwards;   
+}
+
+@keyframes drop {
+    0% {top: 100px;}
+    100% {top: 80vh;}
+}
+
+#lys {
+    position: absolute;
+    top: 0;
+    height: 35px;;
+    width: 65%;
+    
+    background-image: url("lys.gif");
+    background-size: contain;
+}
+
+#merrychristmas {
+    position: absolute;
+    right: 350px;
+    bottom: 10%;
+
+    height: 250px;
+    width: 250px;
+    
+    background-image: url("merrychristmas.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
   

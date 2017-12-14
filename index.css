@@ -10,14 +10,18 @@ body {
 h1 {
     padding-left: 10px;
     font-size: 3em;
-    text-shadow: 5px 2px #9F6800;
-    color: rgb(255, 210, 0);
+    text-shadow: 5px 2px #444444;
+    color: rgb(255, 255, 255);
     font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
     margin-left: auto; ditto for right; 
 }
 
 #innhold {
     font-size: 30px; 
+    font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
+    color: white;
+    text-shadow: 5px 2px #444444;
+    
 }
 
 li {

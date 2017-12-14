@@ -2,7 +2,7 @@
 #snow {
     position: absolute;
     bottom: 0;
-    height: 300px;
+    height: 50vh;
     width: 800px;
 
     background-image: url("himmel.jpg");
@@ -16,7 +16,7 @@
 #sky {
     background: -webkit-linear-gradient(black, #0009FF, #483DBB);
     width: 800px;
-    height: 350px;
+    height: 50vh;
     display: grid;
     grid-template-columns: repeat(13, 1fr);
     grid-gap: 40px;
@@ -51,8 +51,8 @@
 
 @keyframes tur {
     0% {left: 0px; top: 20%; opacity: 1;}
-    50% {left: 40%; top: 20%; opacity: 1;}
-    100% {left: 50%; top: 20%; opacity: 0;}
+    50% {left: 500px; top: 20%; opacity: 1;}
+    100% {left: 550px; top: 20%; opacity: 0;}
     
 }
 
@@ -65,7 +65,7 @@
     background-image: url("pakke.png");
     background-size: contain;
 
-    animation: drop 2s linear; 
+    animation: drop 1s ease-in-out; 
     animation-fill-mode: forwards;   
 }
 
@@ -78,7 +78,7 @@
     position: absolute;
     top: 0;
     height: 35px;;
-    width: 65%;
+    width: 800px;
     
     background-image: url("lys.gif");
     background-size: contain;
@@ -95,5 +95,23 @@
     background-image: url("merrychristmas.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.snow {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 10px;
+    height: 10px;
+    background-image: url("snow.png");
+    background-size: contain;
+
+    animation: dale 3.5s infinite; 
+    animation-fill-mode: forwards;  
+}
+
+@keyframes dale {
+    0% {top: 10vh;}
+    100% {top: 95vh;}
 }
   

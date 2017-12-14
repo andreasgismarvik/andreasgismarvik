@@ -17,5 +17,17 @@ function setup() {
         pakke.style.top = (e.screenY - 50) + "px";
         divSky.appendChild(pakke);
     }
+
+    function makeSnow() {
+        for (let i=0; i<100; i++) {
+            let snow = document.createElement('div');
+            snow.className = "snow";
+            snow.style.left = Math.random()*800 + "px";
+            snow.style.animationDelay = Math.random() * 4 + "s";
+            divSky.appendChild(snow);
+        }
+    }
+
+    makeSnow();
 }
 

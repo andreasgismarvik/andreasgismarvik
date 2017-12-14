@@ -5,7 +5,7 @@
     height: 50vh;
     width: 800px;
 
-    background-image: url("himmel.jpg");
+    background-image: url("sne.png");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -16,7 +16,7 @@
 #sky {
     background: -webkit-linear-gradient(black, #0009FF, #483DBB);
     width: 800px;
-    height: 50vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: repeat(13, 1fr);
     grid-gap: 40px;
@@ -46,7 +46,9 @@
     animation: tur 8s linear infinite;
     font-size: 3em;
     color: red;
-    
+
+    font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";  
+    font-size: 2em;    
 }
 
 @keyframes tur {
@@ -76,7 +78,7 @@
 
 #lys {
     position: absolute;
-    top: 0;
+    top: 2vh;
     height: 35px;;
     width: 800px;
     
@@ -86,8 +88,8 @@
 
 #merrychristmas {
     position: absolute;
-    right: 350px;
-    bottom: 10%;
+    right: 40vh;
+    bottom: 0;
 
     height: 250px;
     width: 250px;
@@ -113,5 +115,10 @@
 @keyframes dale {
     0% {top: 10vh;}
     100% {top: 95vh;}
+}
+
+#reinsdyr {
+    position: absolute;
+    left: 10vh;
 }
   

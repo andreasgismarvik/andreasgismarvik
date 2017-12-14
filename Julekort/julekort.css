@@ -45,7 +45,8 @@
     position: absolute;
     animation: tur 8s linear infinite;
     font-size: 3em;
-    color: red;
+    color: #E80000;
+    text-shadow: 5px 2px #A30000;    
 
     font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";  
     font-size: 2em;    

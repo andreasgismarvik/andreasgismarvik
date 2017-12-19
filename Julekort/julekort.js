@@ -33,7 +33,7 @@ function setup() {
     function cannonSnow() {
         for (let i=0; i<15; i++) {
             let snow = document.createElement('div');
-            snow.className = "powder";
+            snow.className = "kule";
             snow.style.left = Math.random()*800 + "px";
             snow.style.animationDelay = Math.random() * 4 + "s";
             divSky.appendChild(snow);

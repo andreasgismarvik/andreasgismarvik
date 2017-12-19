@@ -132,7 +132,7 @@
     background-repeat: no-repeat;
 }
 
-.powder {
+.kule {
     position: absolute;
     left: 90vh;
     top: 61vh;
@@ -141,31 +141,19 @@
     background-image: url("kule.png");
     background-size: contain;    
 
-    animation: fyke 4s linear infinite;
+    animation: fyke 5s linear infinite;
 }
 
 @keyframes fyke {
-    0% { left: 90vh;
-        top: 61vh; }
-    10% { left: 80vh;
-        top: 55vh; }
-    20% { left: 70vh;
-        top: 50vh; }
-    30% { left: 60vh;
-        top: 40vh; }
-    40% { left: 80vh;
-        top: 40vh; }
-    50% { left: 90vh;
-        top: 40vh; }
-    60% { left: 110vh;
-        top: 40vh; }
-    70% { left: 130vh;
-        top: 30vh; }
-    80% { left: 140vh;
-        top: 30vh; }
-    90% { left: 150vh;
-        top: 30vh; }
-    100% { left: 160vh;
-        top: 20vh; }
+    0% { left: 90vh; top: 61vh; }
+    10% { left: 80vh; top: 55vh; }
+    20% { left: 70vh; top: 61vh; }
+    30% { left: 60vh; top: 60vh; }
+    40% { left: 50vh; top: 55vh; }
+    50% { left: 40vh; top: 70vh; }
+    60% { left: 30vh; top: 80vh; }
+    70% { left: 20vh; top: 82vh; }
+    80% { left: 10vh; top: 84vh; }
+    90% { left: 5vh; top: 85vh; }
+    100% { left: 1vh; top: 90vh;}
   }
-  

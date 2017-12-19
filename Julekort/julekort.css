@@ -122,4 +122,50 @@
     position: absolute;
     left: 10vh;
 }
+
+#cannon {
+    position: absolute; 
+    left: 90vh;
+    top: 59vh;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    background-repeat: no-repeat;
+}
+
+.powder {
+    position: absolute;
+    left: 90vh;
+    top: 61vh;
+    width: 25px;
+    height: 25px;
+    background-image: url("kule.png");
+    background-size: contain;    
+
+    animation: fyke 4s linear infinite;
+}
+
+@keyframes fyke {
+    0% { left: 90vh;
+        top: 61vh; }
+    10% { left: 80vh;
+        top: 55vh; }
+    20% { left: 70vh;
+        top: 50vh; }
+    30% { left: 60vh;
+        top: 40vh; }
+    40% { left: 80vh;
+        top: 40vh; }
+    50% { left: 90vh;
+        top: 40vh; }
+    60% { left: 110vh;
+        top: 40vh; }
+    70% { left: 130vh;
+        top: 30vh; }
+    80% { left: 140vh;
+        top: 30vh; }
+    90% { left: 150vh;
+        top: 30vh; }
+    100% { left: 160vh;
+        top: 20vh; }
+  }
   

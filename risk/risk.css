@@ -1,0 +1,67 @@
+#land {
+    position: absolute;
+    
+    top: 10px;
+    left: 10px;
+    
+    height: 40vh;
+    width: 45vh;
+
+    text-align: center;
+    background-color: lightgrey;
+    color: red;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+
+#logo {
+    position: absolute;
+    bottom: 20vh;
+    left: 2vh;
+}
+
+#kort {
+    position: absolute;
+    top: 10px;
+    left: 25%; 
+    
+    height: 40vh;
+    width: 45vh;
+    
+    text-align: center;
+    background-color: lightgrey;
+    color: red;
+    border: 2px solid black;
+}
+
+#spiller {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    
+    height: 40vh;
+    width: 45vh;
+
+    text-align: center;
+    background-color: lightgrey;
+    color: red;
+    border: 2px solid black;
+}
+
+#tilbakeknapp {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+
+    list-style: none;
+
+    width: 10vh;
+    height: 5vh;
+
+    text-align: center;
+    color: red;
+    background-color: lightgrey;
+    border: 2px solid black;
+    
+}

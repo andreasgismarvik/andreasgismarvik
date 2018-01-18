@@ -1,0 +1,42 @@
+body {
+    background-color: lightpink;
+}
+
+#main form div {
+    width: 18em;
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-gap: 1em;
+    margin: 2px;
+}
+
+#main form div div {
+    white-space: nowrap;
+}
+
+#main {
+    position: absolute;
+    left: 10px;
+    top: 10px;  
+    width: 50vw;
+    border: solid grey 1px;
+}
+
+#monster {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 49vw;
+    height: 100vh;
+    border: solid red 1px;
+}
+
+#sprite {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    background-image: url("sprite.png");
+}
+

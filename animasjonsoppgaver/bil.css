@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 1;
-    animation: drive 5s forwards, liftup 2s 5s forwards, liftdown 2s 11s, driveout 3s 13s;
+    animation: drive 5s forwards, liftup 2s 5s forwards, liftdown 2s 11s, driveout 3s 13s forwards;
 }
 
 @keyframes drive {
@@ -151,3 +151,4 @@
         left: 50%;
     }
 }
+

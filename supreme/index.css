@@ -1,0 +1,27 @@
+#logo {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    background: url(logo.png) left top no-repeat;
+    background-size: 13.63636em 4.09091em;
+    width: 13.63636em;
+    height: 4.09091em;
+}
+
+#kategorier {
+    position: absolute;
+    width; 
+}
+
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}

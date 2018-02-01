@@ -9,14 +9,17 @@ body {
 }
 
 h1 {
-    font-size: 3em;
+    margin: 5px;
+    font-size: 4em;
     text-shadow: 5px 2px #444444;
     color: rgb(255, 255, 255);
     font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
-    margin-left: auto; ditto for right; 
+
 }
 
 #innhold {
+    margin-left: 65px;
+    position: absolute;
     font-size: 30px; 
     font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
     color: white;
@@ -38,7 +41,7 @@ li a {
 
 li a:hover {
     color: white;
-    font-size: 1em;
+    font-size: 1.5em;
     font-style: 
 }
 

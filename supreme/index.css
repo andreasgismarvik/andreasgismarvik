@@ -1,6 +1,6 @@
 #logo {
     position: absolute;
-    top: 10%;
+    bottom: 10%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -13,15 +13,91 @@
     background-size: 13.63636em 4.09091em;
     width: 13.63636em;
     height: 4.09091em;
+    box-shadow: 10px 10px rgba(117, 117, 117, 0.37);
+    z-index: 0;
 }
 
 #kategorier {
     position: absolute;
-    width; 
+    bottom: 12%;
+    padding-left: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    font-size: 1.5em;
+    z-index: 1;
+    color: rgb(75, 75, 75);
 }
 
-a {
-    color: black;
-    cursor: pointer;
+#kategorier:hover {
+    color: #e61717;
+    color: -webkit-linear-gradient(top, #e61717, #ff0000);
+    color: -moz-linear-gradient(top, #e61717, #ff0000);
+    color: -ms-linear-gradient(top, #e61717, #ff0000);
+    color: -o-linear-gradient(top, #e61717, #ff0000);
+    color: linear-gradient(to bottom, #e61717, #ff0000);
+    text-decoration: none; 
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    position: relative;
+    z-index: 0;
+}
+
+.grid-item {
+    border: 1px solid rgba(102, 102, 102, 0.534);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+}
+
+.grid-item1 {
+    border: 1px solid rgba(102, 102, 102, 0.534);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+    background-image: url("hoodie.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+}
+
+button {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #b0b0b0);
+    background-image: -moz-linear-gradient(top, #ffffff, #b0b0b0);
+    background-image: -ms-linear-gradient(top, #ffffff, #b0b0b0);
+    background-image: -o-linear-gradient(top, #ffffff, #b0b0b0);
+    background-image: linear-gradient(to bottom, #ffffff, #b0b0b0);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #272727;
+    font-size: 14px;
+    padding: 8px 16px 8px 16px;
     text-decoration: none;
+    z-index: 1;
+}
+
+button:hover {
+    background: #e61717;
+    background-image: -webkit-linear-gradient(top, #e61717, #ff0000);
+    background-image: -moz-linear-gradient(top, #e61717, #ff0000);
+    background-image: -ms-linear-gradient(top, #e61717, #ff0000);
+    background-image: -o-linear-gradient(top, #e61717, #ff0000);
+    background-image: linear-gradient(to bottom, #e61717, #ff0000);
+    text-decoration: none;
+    z-index: 1;
+}
+
+body {
+    background: linear-gradient(white, lightgrey, white);
 }

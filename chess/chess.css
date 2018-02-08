@@ -60,19 +60,19 @@
     background-color: black;
 }
 
-#brett div:nth-child(2n+49) {
+#brett div:nth-child(2n+50) {
     background-color: white;
 }
 
-#brett div:nth-child(2n+48) {
+#brett div:nth-child(2n+49) {
     background-color: black;
 }
 
-#brett div:nth-child(2n+56) {
+#brett div:nth-child(2n+57) {
     background-color: white;
 }
 
-#brett div:nth-child(2n+57) {
+#brett div:nth-child(2n+58) {
     background-color: black;
 }
 

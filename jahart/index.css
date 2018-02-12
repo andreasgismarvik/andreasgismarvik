@@ -1,0 +1,133 @@
+#motd {
+    position: absolute;
+    left: 40vh;
+    top: 2vh;
+    font-size: 0.5em;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#kaktus:hover {
+    width: 90px;
+    height: 170px;
+    transform: rotate(5deg);
+    
+}
+
+#kaktus {
+    position: absolute;
+    background: url("bilder/kaktus.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 75px;
+    left: 100vh;
+    top: 60vh;
+    z-index: 1;
+}
+
+img:hover {
+    transform: rotate(-8deg);
+    width: 170px;
+    height: 90px;
+}
+
+#vei {
+    position: absolute;
+    background-image: url("bilder/vei.png");
+    height: 800px;
+    width: 1250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#hus {
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    left: 0;
+    top: 30vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("bilder/hus.png");
+
+}
+
+#hus:hover {
+    width: 850px;
+    height: 480px;
+    background: url("bilder/husaapen.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform:          rotate(5deg);
+
+}
+
+#blyant:hover {
+    width: 120px;
+    height: 60px;
+    transform: rotate(-40deg);
+}
+
+#bunntekst {
+    position: absolute;
+    bottom: 1vh;
+    right: 4vh;
+    font-size: 0.6em;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+#tingtang {
+    position: absolute; 
+    width: 400px;
+    height: 500px;
+    left: 125vh;
+    top: 13vh;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+#pil {
+    background-image: url("bilder/pil.png");
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 84vh;
+    top: 13vh;
+}
+
+#blyant {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: url("bilder/blyant.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    transform:          rotate(-30deg);
+    left: 150vh;
+    top: 30vh;
+}
+
+#logo {
+    position: absolute;
+    left: 3vh;
+    top: 3vh;
+    width: 250px;
+    height: 70px;
+    background: black;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    border-radius: 5%;
+    color: white;
+    text-align: center;
+    font-size: 3.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

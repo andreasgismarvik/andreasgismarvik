@@ -21,8 +21,8 @@
     background-size: contain;
     height: 150px;
     width: 75px;
-    left: 100vh;
-    top: 60vh;
+    left: 115vh;
+    top: 75vh;
     z-index: 1;
 }
 
@@ -30,18 +30,6 @@ img:hover {
     transform: rotate(-8deg);
     width: 170px;
     height: 90px;
-}
-
-#vei {
-    position: absolute;
-    background-image: url("bilder/vei.png");
-    height: 800px;
-    width: 1250px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
 }
 
 #hus {

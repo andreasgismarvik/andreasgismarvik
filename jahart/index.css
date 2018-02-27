@@ -24,12 +24,18 @@
     left: 115vh;
     top: 75vh;
     z-index: 1;
+    transition: 1s;
+
 }
 
 img:hover {
     transform: rotate(-8deg);
     width: 170px;
     height: 90px;
+}
+
+img {
+    transition: 1s;
 }
 
 #hus {
@@ -41,6 +47,7 @@ img:hover {
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url("bilder/hus.png");
+    transition: 1s;
 
 }
 
@@ -101,6 +108,8 @@ img:hover {
     transform:          rotate(-30deg);
     left: 150vh;
     top: 30vh;
+    transition: 1s;
+
 }
 
 #logo {

@@ -1,3 +1,9 @@
+body {
+    background-image: url("newyork.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #logo {
     position: absolute;
     bottom: 10%;
@@ -17,37 +23,8 @@
     z-index: 0;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    position: relative;
-    z-index: 0;
-}
-
-.grid-item {
-    border: 1px solid rgba(102, 102, 102, 0.534);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    height: 100px;
-    word-spacing: 20px;
-}
-
-.grid-item1 {
-    border: 1px solid rgba(102, 102, 102, 0.534);
-    padding: 20px;
-    text-align: center;
-    height: 100px;
-    background-image: url("hoodie.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    font-family: 'Courier New', Courier, monospace; 
-    font-size: 1.5em;
-}
-
 p {
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
     text-align: center;
 }
@@ -62,7 +39,7 @@ button {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: 'Courier New', Courier, monospace;
     color: #272727;
     font-size: 14px;
     padding: 8px 16px 8px 16px;
@@ -82,14 +59,17 @@ button:hover {
     z-index: 1;
 }
 
-body {
-    background: linear-gradient(white, lightgrey, white);
-}
-
 form {
     position: absolute;
     left: 80vh;
     top: 30vh;
     border: 2px grey solid;
     letter-spacing: 2px;
+    background: rgba(128, 128, 128, 0.466)
+}
+
+#back {
+    position: absolute;
+    top: 0;
+    left: 0;
 }

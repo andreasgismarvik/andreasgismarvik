@@ -1,0 +1,67 @@
+#bilder {
+    display: flex;
+}
+
+.bilde {
+    background-size: contain;
+    background-position: center;
+    min-width: 200px;
+    min-height: 150px;
+    background-repeat: no-repeat;
+    filter: sepia(90%);
+    flex: 1;
+    transition: 1s;
+}
+
+div.bilde:nth-child(1) {
+    background-image: url("bilder/1.jpg")
+}
+
+div.bilde:nth-child(2) {
+    background-image: url("bilder/2.jpg")
+}
+
+div.bilde:nth-child(3) {
+    background-image: url("bilder/3.jpg")
+}
+
+div.bilde:nth-child(4) {
+    background-image: url("bilder/4.jpg")
+}
+
+div.bilde:nth-child(5) {
+    background-image: url("bilder/5.jpg")
+}
+
+div.bilde:nth-child(1) {
+    background-image: url("bilder/1.jpg")
+}
+
+div.bilde:nth-child(2) {
+    background-image: url("bilder/2.jpg")
+}
+
+div.bilde:nth-child(3) {
+    background-image: url("bilder/3.jpg")
+}
+
+div.bilde:nth-child(4) {
+    background-image: url("bilder/4.jpg")
+}
+
+div.bilde:nth-child(5) {
+    background-image: url("bilder/5.jpg")
+}
+
+div.bilde:nth-child(1) {
+    background-image: url("bilder/1.jpg")
+}
+
+div.bilde:nth-child(2) {
+    background-image: url("bilder/2.jpg")
+}
+
+.bilde:hover {
+    filter: sepia(0);
+    flex: 4;
+}

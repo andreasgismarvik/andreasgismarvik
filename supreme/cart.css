@@ -59,7 +59,7 @@ button:hover {
     z-index: 1;
 }
 
-form {
+#buy {
     position: absolute;
     left: 80vh;
     top: 30vh;
@@ -68,8 +68,18 @@ form {
     background: rgba(128, 128, 128, 0.466)
 }
 
-#back {
+#fill {
+    position: absolute;
+    left: 80vh;
+    top: 30vh;
+    border: 2px grey solid;
+    letter-spacing: 2px;
+    background: rgba(128, 128, 128, 0.466)
+}
+
+#tilbake {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
 }

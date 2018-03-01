@@ -86,10 +86,26 @@ body {
     background: linear-gradient(white, lightgrey, white);
 }
 
-form {
+#buy {
     position: absolute;
-    left: 80vh;
-    top: 30vh;
+    left: 78vh;
+    top: 15vh;
     border: 2px grey solid;
     letter-spacing: 2px;
+    background: rgba(128, 128, 128, 0.466)
+}
+
+#back {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#frsh {
+    position: absolute;
+    bottom: 10vh;
+    left: 10vh;
+    background: url("frsh.png");
+
+    animation: frsh 2s ease-in-out
 }

@@ -1,6 +1,6 @@
 #logo {
     position: absolute;
-    bottom: 10%;
+    top: 10vh;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -14,98 +14,217 @@
     width: 13.63636em;
     height: 4.09091em;
     box-shadow: 10px 10px rgba(117, 117, 117, 0.37);
-    z-index: 0;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    position: relative;
-    z-index: 0;
-}
-
-.grid-item {
-    border: 1px solid rgba(102, 102, 102, 0.534);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    height: 100px;
-    word-spacing: 20px;
-}
-
-.grid-item1 {
-    border: 1px solid rgba(102, 102, 102, 0.534);
-    padding: 20px;
-    text-align: center;
-    height: 100px;
-    background-image: url("hoodie.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    font-family: 'Courier New', Courier, monospace; 
-    font-size: 1.5em;
-}
-
-p {
-    font-family: 'Courier New', Courier, monospace; 
-    font-size: 1em;
-    text-align: center;
+    z-index: 1;
 }
 
 button {
-    background: #ffffff;
-    background-image: -webkit-linear-gradient(top, #ffffff, #b0b0b0);
-    background-image: -moz-linear-gradient(top, #ffffff, #b0b0b0);
-    background-image: -ms-linear-gradient(top, #ffffff, #b0b0b0);
-    background-image: -o-linear-gradient(top, #ffffff, #b0b0b0);
-    background-image: linear-gradient(to bottom, #ffffff, #b0b0b0);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: 'Courier New', Courier, monospace; 
-    color: #272727;
-    font-size: 14px;
-    padding: 8px 16px 8px 16px;
-    text-decoration: none;
-    z-index: 1;
-    font-size: 0.5em;
-}
-
-button:hover {
-    background: #e61717;
-    background-image: -webkit-linear-gradient(top, #e61717, #ff0000);
-    background-image: -moz-linear-gradient(top, #e61717, #ff0000);
-    background-image: -ms-linear-gradient(top, #e61717, #ff0000);
-    background-image: -o-linear-gradient(top, #e61717, #ff0000);
-    background-image: linear-gradient(to bottom, #e61717, #ff0000);
-    text-decoration: none;
-    z-index: 1;
+    background: red;
+    border-radius: 0;
+    font-family: 'Courier New', Courier, monospace;
+    width: 120px;
+    height: 25px;
+    color: white;
 }
 
 body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
     background: linear-gradient(white, lightgrey, white);
+
 }
 
-#buy {
+
+h1 {
     position: absolute;
-    left: 78vh;
-    top: 15vh;
-    border: 2px grey solid;
-    letter-spacing: 2px;
-    background: rgba(128, 128, 128, 0.466)
+    top: -6px;
+    left: 20px;
 }
 
-#back {
+#meny {
+	top: 0;
     position: absolute;
-    top: 0;
-    left: 0;
+    width: 100%;
+    height: 10%;
+    
 }
 
-#frsh {
-    position: absolute;
-    bottom: 10vh;
-    left: 10vh;
-    background: url("frsh.png");
+ul {
+    z-index: 99;
+    position: relative;
+    padding-top: 20px;
+    margin: 0px;
+    list-style: none;
+}
 
-    animation: frsh 2s ease-in-out
+ul li {
+    position: relative;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    font-family: Astrolab;
+    margin-bottom: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 1.2em;
+}
+
+ul li a:hover {
+    border-bottom: 1px solid rgb(253, 54, 54);
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+    position: relative;
+    left: -40px;
+    top: -10px;
+}
+
+span {
+    color: rgb(253, 54, 54);
+}
+
+
+.active {
+    background: rgb(253, 54, 54);
+}
+
+#produkter #hoodie  {
+    background-image: url("hoodie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#menu {
+    position: absolute;
+    height: 400px;
+    width: 250px;
+    left: 2vh;
+    top: 20vh;
+}
+
+#menu li {
+    left: -6vh;
+    font-family: 'Courier New', Courier, monospace; 
+
+}
+
+#produkter {
+    position: relative;
+    width: 95vw;
+    height: 100vh;
+    top: 200px;
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    grid-auto-rows: minmax(50px, auto);
+    grid-column-gap: 20px;
+}
+
+div h2 {
+	position: relative;
+	left: 19%;
+	top: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+
+}
+
+#produkter div {
+    left: 30vh;
+    position: relative;
+    width: 210px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+#produkter div:nth-child(2) {
+    background-image: url("../bilder/gpro.jpg");
+}
+
+#produkter div:nth-child(3) {
+    background-image: url("../bilder/bw chroma.jpg");
+}
+
+#produkter div:nth-child(4) {
+    background-image: url("../bilder/rapidfire.jpg");
+}
+
+#produkter div:nth-child(5) {
+    background-image: url("../bilder/masterkeys2.jpg");
+}
+
+#produkter div:nth-child(6) {
+    background-image: url("../bilder/prodigy.jpg");
+}
+
+#produkter div:nth-child(7) {
+    background-image: url("../bilder/bw stealth.jpg");
+}
+
+#produkter div:nth-child(8) {
+    background-image: url("../bilder/k55.jpg");
+}
+
+#produkter div:nth-child(9) {
+    background-image: url("../bilder/lite.jpg");
+}
+
+#produkter div:nth-child(10) {
+    background-image: url("../bilder/orion.jpg");
+}
+
+#produkter div:nth-child(11) {
+    background-image: url("../bilder/ornata.jpg");
+}
+
+#produkter div:nth-child(12) {
+    background-image: url("../bilder/lux.jpg");
+}
+
+article img {
+    position: absolute;
+    top: 14%;
+    left: 4vw;
+}
+
+article img:nth-child(2) {
+    position: absolute;
+    top: 14%;
+    left: 29vw;
+}
+
+article img:nth-child(3) {
+    position: absolute;
+    top: 15%;
+    left: 53vw;
+}
+
+article img:nth-child(4) {
+    position: absolute;
+    top: 14%;
+    left: 77.5vw;
+}
+
+#produkter div:hover + #text {
+	display: block;
+	
+
+}
+
+#text {
+	background: red;
+	display: none;
+	
 }

@@ -15,6 +15,14 @@
     height: 4.09091em;
     box-shadow: 10px 10px rgba(117, 117, 117, 0.37);
     z-index: 1;
+    transition: 1s;
+    filter: contrast(200%);
+}
+
+#logo:hover {
+    width: 6.95636em;
+    height: 3.09091em;
+    filter: contrast(200%);
 }
 
 select {
@@ -107,8 +115,9 @@ span {
 #produkter #hoodie  {
     background-image: url("bilder/hoodie3.png");
     height: 200px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    filter: contrast(150%);
 }
 
 #menu {
@@ -125,7 +134,7 @@ span {
 
 #produkter {
     position: relative;
-    width: 95vw;
+    width: 98vw;
     height: 100vh;
     top: 200px;
     padding-left: 50px;

@@ -9,12 +9,16 @@
     overflow: hidden;
     display: block;
     margin: 0 auto;
-    background: url(logo.png) left top no-repeat;
+    background: url("bilder/logo.png") left top no-repeat;
     background-size: 13.63636em 4.09091em;
     width: 13.63636em;
     height: 4.09091em;
     box-shadow: 10px 10px rgba(117, 117, 117, 0.37);
     z-index: 1;
+}
+
+#produkter #hoodie h2 {
+    font-weight: normal;
 }
 
 button {
@@ -53,17 +57,16 @@ ul {
     z-index: 99;
     position: relative;
     padding-top: 20px;
-    margin: 0px;
     list-style: none;
 }
 
 ul li {
     position: relative;
-    width: 100px;
-    line-height: 40px;
-    text-align: center;
-    font-family: Astrolab;
-    margin-bottom: 5px;
+    line-height: 24px;
+    font-size: 0.8em;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
 }
 
 ul li a {
@@ -74,7 +77,9 @@ ul li a {
 }
 
 ul li a:hover {
-    border-bottom: 1px solid rgb(253, 54, 54);
+    background: red;
+    color: white;
+    font-weight: bold;
 }
 
 ul li ul li {
@@ -84,8 +89,6 @@ ul li ul li {
 ul li:hover ul li {
     display: block;
     position: relative;
-    left: -40px;
-    top: -10px;
 }
 
 span {
@@ -98,16 +101,15 @@ span {
 }
 
 #produkter #hoodie  {
-    background-image: url("hoodie.jpg");
+    background-image: url("bilder/hoodie3.png");
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #menu {
     position: absolute;
-    height: 400px;
-    width: 250px;
-    left: 2vh;
+    left: 1vh;
     top: 20vh;
 }
 
@@ -147,80 +149,6 @@ div h2 {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0px;
-}
-
-#produkter div:nth-child(2) {
-    background-image: url("../bilder/gpro.jpg");
-}
-
-#produkter div:nth-child(3) {
-    background-image: url("../bilder/bw chroma.jpg");
-}
-
-#produkter div:nth-child(4) {
-    background-image: url("../bilder/rapidfire.jpg");
-}
-
-#produkter div:nth-child(5) {
-    background-image: url("../bilder/masterkeys2.jpg");
-}
-
-#produkter div:nth-child(6) {
-    background-image: url("../bilder/prodigy.jpg");
-}
-
-#produkter div:nth-child(7) {
-    background-image: url("../bilder/bw stealth.jpg");
-}
-
-#produkter div:nth-child(8) {
-    background-image: url("../bilder/k55.jpg");
-}
-
-#produkter div:nth-child(9) {
-    background-image: url("../bilder/lite.jpg");
-}
-
-#produkter div:nth-child(10) {
-    background-image: url("../bilder/orion.jpg");
-}
-
-#produkter div:nth-child(11) {
-    background-image: url("../bilder/ornata.jpg");
-}
-
-#produkter div:nth-child(12) {
-    background-image: url("../bilder/lux.jpg");
-}
-
-article img {
-    position: absolute;
-    top: 14%;
-    left: 4vw;
-}
-
-article img:nth-child(2) {
-    position: absolute;
-    top: 14%;
-    left: 29vw;
-}
-
-article img:nth-child(3) {
-    position: absolute;
-    top: 15%;
-    left: 53vw;
-}
-
-article img:nth-child(4) {
-    position: absolute;
-    top: 14%;
-    left: 77.5vw;
-}
-
-#produkter div:hover + #text {
-	display: block;
-	
-
 }
 
 #text {

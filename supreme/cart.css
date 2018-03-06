@@ -1,5 +1,5 @@
 body {
-    background-image: url("newyork.jpg");
+    background-image: url("bilder/newyork.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,7 +15,7 @@ body {
     overflow: hidden;
     display: block;
     margin: 0 auto;
-    background: url(logo.png) left top no-repeat;
+    background: url("bilder/logo.png") left top no-repeat;
     background-size: 13.63636em 4.09091em;
     width: 13.63636em;
     height: 4.09091em;

@@ -19,6 +19,22 @@
     filter: contrast(200%);
 }
 
+#orders {
+    position: fixed;
+    width: 300px;
+    height: 400px;
+    right: 40vh;
+    top: 27vh;
+
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: solid 1px grey;
+    padding: 10px;
+
+    z-index: 2;
+}
+
 #logo:hover {
     width: 6.95636em;
     height: 3.09091em;

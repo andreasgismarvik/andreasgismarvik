@@ -8,6 +8,7 @@
     <title>Supreme</title>
     <link rel="stylesheet" href="index.css">
     <script src="supreme.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
     <link rel="icon" href="bilder/icon.png">
 </head>
 
@@ -43,69 +44,44 @@
             <h2>Supreme Bogo Hoodie,
                 <b>Heather grey</b>
                 <form method="get" action="#.html">
-
-                    <select>
+                    <br> Size:
+                    <select id="stoerrelse">
                         <option value="Small">S</option>
                         <option value="Medium">M</option>
                         <option value="Large">L</option>
                         <option value="X-Large">XL</option>
                     </select>
-                    <br>
-                    <select>
+                    <br> Quantity:
+                    <select id="antall">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
                     </select>
-                    <button type="click">Add to basket</button>
+                    <br>
+
+                    <br>
+                    <b>First name ↓ </b>
+                    <input id="navn"></input>
+
+                    <button id="order" type="click">Order</button>
                 </form>
         </div>
         </h2>
     </div>
 
-    <div>
-        <h2>Supreme Camp Hat</h2>
-    </div>
-    <div>
-        <h2>bla bla,,</h2>
-    </div>
-    <div>
-        <h2>bla bla,,</h2>
-    </div>
-    <div>
-        <h2>bla bla,,</h2>
-    </div>
-    <div>
-        <h2>bla bla,,</h2>
-    </div>
-    <div>
-        <h2>bla bla,,</h2>
-    </div>
-    <div>
-        <h2>bla bla,,</h2>
-    </div>
-    <div>
-        <h2>bla bla,,</h2>
-    </div>
-    <div>
-        <h2>bla bla,,</h2>
-    </div>
-    <div>
-        <h2>bla bla,,</h2>
-    </div>
-    <div>
-        <h2>bla bla,,</h2>
-    </div>
-    </div>
+    <article>
+    <div id="bestillinger" class="order">
+        <p>live orders
+        <br> ↓</p>      
 
-    <div id="orders"><b>live orders</b><br>
-        ↓ 
+        <script>
+            setup();
+        </script>
+
+        <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
     </div>
-
-
-    <script>
-        setup();
-    </script>
+    </article>
 
 </body>
 

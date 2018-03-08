@@ -1,6 +1,7 @@
 #logo {
     position: absolute;
     top: 10vh;
+    opacity: 1;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -19,19 +20,23 @@
     filter: contrast(200%);
 }
 
-#orders {
+#bestillinger p {
+    text-align: center;
+}
+
+
+
+#bestillinger {
     position: fixed;
     width: 300px;
     height: 400px;
     right: 40vh;
     top: 27vh;
-
-    font-size: 1em;
+    font-size: 0.8em;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    text-align: left;
     border: solid 1px rgba(153, 153, 153, 0.5);
     padding: 10px;
-
     z-index: 2;
 }
 
@@ -63,9 +68,7 @@ body {
     height: 100%;
     margin: 0;
     background: linear-gradient(white, lightgrey, white);
-
 }
-
 
 h1 {
     position: absolute;
@@ -74,11 +77,10 @@ h1 {
 }
 
 #meny {
-	top: 0;
+    top: 0;
     position: absolute;
     width: 100%;
     height: 10%;
-    
 }
 
 ul {
@@ -123,12 +125,11 @@ span {
     color: rgb(253, 54, 54);
 }
 
-
 .active {
     background: rgb(253, 54, 54);
 }
 
-#produkter #hoodie  {
+#produkter #hoodie {
     background-image: url("bilder/hoodie3.png");
     height: 200px;
     background-size: contain;
@@ -144,8 +145,7 @@ span {
 
 #menu li {
     left: -6vh;
-    font-family: 'Courier New', Courier, monospace; 
-
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #produkter {
@@ -162,12 +162,11 @@ span {
 }
 
 div h2 {
-	position: relative;
-	left: 19%;
-	top: 100%;
+    position: relative;
+    left: 19%;
+    top: 100%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
-
 }
 
 #produkter div {
@@ -181,7 +180,7 @@ div h2 {
 }
 
 #text {
-	background: red;
-	display: none;
-	
+    background: red;
+    display: none;
 }
+

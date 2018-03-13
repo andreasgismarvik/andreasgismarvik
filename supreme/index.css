@@ -1,17 +1,18 @@
 #orderanimation.aktiv {
-    animation: order 1s ease-in-out;
-    left: 0;
+    animation: order 2s ease-in-out;
 }
 
 #orderanimation {
     position: absolute;
-    height: 1400px;
-    width: 100vw;
-    left: -2000px;
-    background: linear-gradient(red, darkred);
-    bottom: 0;
+    bottom: 5vh;
+    left: 40vh;
     opacity: 0;
     z-index: 100;
+    background: red;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
     
 }
 

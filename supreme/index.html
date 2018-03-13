@@ -8,11 +8,14 @@
     <title>Supreme</title>
     <link rel="stylesheet" href="index.css">
     <script src="supreme.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
     <link rel="icon" href="bilder/icon.png">
 </head>
 
 <body>
+
+    <div id="orderanimation">
+    </div>
 
     <div id="meny">
         <div id="logo"></div>
@@ -63,24 +66,27 @@
                     <br>
                     <b>First name ↓ </b>
                     <input id="navn"></input>
+                    <button id="order" type="click">Order now</button>
 
-                    <button id="addtocart" type="click">Add to cart</button>
+
                 </form>
         </div>
         </h2>
     </div>
 
     <article>
-    <div id="cart" class="add">
-        <p>your shopping cart
-        <br>↓</p>      
+        <div id="orders" class="live">
+            <p>All orders
+                <br>↓</p>
 
-        <script>
-            setup();
-        </script>
 
-        <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
-    </div>
+            <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+
+            <script>
+                setup();
+            </script>
+
+        </div>
     </article>
 
 </body>

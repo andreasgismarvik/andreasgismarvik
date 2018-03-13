@@ -11,20 +11,23 @@ function setup() {
     };
 
 
+    // @ts-ignore
     firebase.initializeApp(config);
 
+    // @ts-ignore
     let database = firebase.database()
 
-    let divCart = document.getElementById("cart");
+    let divOrders = document.getElementById("orders");
 
-    let ref = firebase.database().ref("add");
+    // @ts-ignore
+    let ref = firebase.database().ref("order");
 
-    function visCart(snapshot) {
+    function visOrders(snapshot) {
         let navn = snapshot.key;
         let info = snapshot.val();
-        divCart.innerHTML += `
+        divOrders.innerHTML += `
           <div>
-            <h4>First name: ${navn}</h4>
+            <h4>First name: ${info.navn}</h4>
             <ul>
              <li>Size: ${info.stoerrelse}
              <li>Quantity: ${info.antall}
@@ -32,25 +35,39 @@ function setup() {
           </div>
         `;
     }
-    ref.on("child_added", visCart);
+    ref.on("child_added", visOrders);
 
 
-let selectStoerrelse = document.getElementById("stoerrelse");
-let selectAntall = document.getElementById("antall");
-let inpNavn = document.getElementById("navn");
+    let selectStoerrelse = document.getElementById("stoerrelse");
+    let selectAntall = document.getElementById("antall");
+    let inpNavn = document.getElementById("navn");
 
-let btnAddtobasket = document.getElementById("addtobasket");
-btnAddtobasket.addEventListener("click", lagreData);
+    let btnOrder = document.getElementById("order");
+    // @ts-ignore
+    btnOrder.addEventListener("click", lagreData);
 
-function lagreData(snapshot) {
-    let stoerrelse = selectStoerrelse.value;
-    let antall = selectAntall.value;
-    let navn = inpNavn.value;
-    let ref = database.ref("addtobasket/" + navn )
-    ref.push({
-        stoerrelse,
-        antall,
-        navn
-    });
-}
+    function lagreData(snapshot) {
+        // @ts-ignore
+        let stoerrelse = selectStoerrelse.value;
+        // @ts-ignore
+        let antall = selectAntall.value;
+        // @ts-ignore
+        let navn = inpNavn.value;
+        let ref = database.ref("order/")
+        ref.push({
+            stoerrelse,
+            antall,
+            navn
+        });
+    }
+
+    document.getElementById("order").addEventListener("click", aktiver);
+
+    function aktiver(e) {
+        setTimeout(() => {
+            document.getElementById("orderanimation").classList.remove("aktiv");
+        }, 1000);
+        document.getElementById("orderanimation").classList.add("aktiv");
+    }
+
 }

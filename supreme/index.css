@@ -8,8 +8,8 @@
     height: 1400px;
     width: 100vw;
     left: -2000px;
+    background: linear-gradient(red, darkred);
     bottom: 0;
-    background-image: url("bilder/order.png");
     opacity: 0;
     z-index: 100;
     
@@ -19,14 +19,32 @@
     0% {
         opacity: 0;
     }
-    25% {
-        opacity: 0.5;
+    10% {
+        opacity: 0.2;
+    }
+    20% {
+        opacity: 0.4;
+    }
+    30% {
+        opacity: 0.6;
+    }
+    40% {
+        opacity: 0.8;
     }
     50% {
         opacity: 1;
     }
-    75% {
-        opacity: 0.5;
+    60% {
+        opacity: 0.8;
+    }
+    70% {
+        opacity: 0.6;
+    }
+    80% {
+        opacity: 0.4;
+    }
+    90% {
+        opacity: 0.2;
     }
     100% {
         opacity: 0;

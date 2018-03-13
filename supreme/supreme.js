@@ -66,7 +66,7 @@ function setup() {
     function aktiver(e) {
         setTimeout(() => {
             document.getElementById("orderanimation").classList.remove("aktiv");
-        }, 1000);
+        }, 2000);
         document.getElementById("orderanimation").classList.add("aktiv");
     }
 

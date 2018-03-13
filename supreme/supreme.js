@@ -15,14 +15,14 @@ function setup() {
 
     let database = firebase.database()
 
-    let divBestillinger = document.getElementById("bestillinger");
+    let divCart = document.getElementById("cart");
 
-    let ref = firebase.database().ref("order");
+    let ref = firebase.database().ref("add");
 
-    function visBestillinger(snapshot) {
+    function visCart(snapshot) {
         let navn = snapshot.key;
         let info = snapshot.val();
-        divBestillinger.innerHTML += `
+        divCart.innerHTML += `
           <div>
             <h4>First name: ${navn}</h4>
             <ul>
@@ -32,21 +32,21 @@ function setup() {
           </div>
         `;
     }
-    ref.on("child_added", visBestillinger);
+    ref.on("child_added", visCart);
 
 
 let selectStoerrelse = document.getElementById("stoerrelse");
 let selectAntall = document.getElementById("antall");
 let inpNavn = document.getElementById("navn");
 
-let btnOrder = document.getElementById("order");
-btnOrder.addEventListener("click", lagreData);
+let btnAddtobasket = document.getElementById("addtobasket");
+btnAddtobasket.addEventListener("click", lagreData);
 
 function lagreData(snapshot) {
     let stoerrelse = selectStoerrelse.value;
     let antall = selectAntall.value;
     let navn = inpNavn.value;
-    let ref = database.ref("order/" + navn)
+    let ref = database.ref("addtobasket/" + navn )
     ref.push({
         stoerrelse,
         antall,

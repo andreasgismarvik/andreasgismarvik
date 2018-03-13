@@ -20,11 +20,11 @@
     filter: contrast(200%);
 }
 
-#bestillinger p {
+#cart p {
     text-align: center;
 }
 
-#bestillinger {
+#cart {
     position: absolute;
     background: linear-gradient(white, lightgrey);
     width: 300px;

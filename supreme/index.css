@@ -11,9 +11,13 @@
     background: red;
     font-size: 1em;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
     text-align: center;
     
+}
+
+p {
+    background: red;
+    color: white;
 }
 
 @keyframes order {

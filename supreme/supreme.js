@@ -27,10 +27,10 @@ function setup() {
         let info = snapshot.val();
         divOrders.innerHTML += `
           <div>
-            <h4>First name: ${info.navn}</h4>
+            <h4>First name : ${info.navn}</h4>
             <ul>
-             <li>Size: ${info.stoerrelse}
-             <li>Quantity: ${info.antall}
+             <li>Size : ${info.stoerrelse}
+             <li>Quantity : ${info.antall}
             </ul>
           </div>
         `;
@@ -41,6 +41,7 @@ function setup() {
     let selectStoerrelse = document.getElementById("stoerrelse");
     let selectAntall = document.getElementById("antall");
     let inpNavn = document.getElementById("navn");
+
 
     let btnOrder = document.getElementById("order");
     // @ts-ignore
@@ -53,6 +54,7 @@ function setup() {
         let antall = selectAntall.value;
         // @ts-ignore
         let navn = inpNavn.value;
+        // @ts-ignore
         let ref = database.ref("order/")
         ref.push({
             stoerrelse,

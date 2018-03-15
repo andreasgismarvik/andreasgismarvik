@@ -179,6 +179,12 @@ ul li:hover ul li {
     position: relative;
 }
 
+#orders h4 {
+    background: red;
+    color: white;
+    font-weight: 0;
+}
+
 span {
     color: rgb(253, 54, 54);
 }
@@ -190,9 +196,14 @@ span {
 #produkter #hoodie {
     background-image: url("bilder/hoodie3.png");
     height: 200px;
+    width: 400px;
     background-size: contain;
     background-repeat: no-repeat;
     filter: contrast(150%);
+}
+
+input {
+    max-width: 50px;
 }
 
 #menu {

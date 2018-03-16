@@ -2,7 +2,10 @@ body {
     background-image: url("bilder/newyork.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 0.9;
+    filter: contrast(180%);
 }
+
 
 #logo:hover {
     width: 13.63636em;
@@ -28,7 +31,6 @@ body {
     height: 4.09091em;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.37);
     z-index: 1;
-    transition: 1s;
-    filter: contrast(200%);
+    transition: 0.3s;
 }
 

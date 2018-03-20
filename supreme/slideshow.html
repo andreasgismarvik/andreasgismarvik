@@ -14,7 +14,43 @@
 
 <body>
 
+
+    <div class="slideshow">
+        <img class="mySlides" src="bilder/cap.png">
+        <img class="mySlides" src="bilder/hoodie.jpg">
+        <img class="mySlides" src="bilder/hoodie2.png">
+
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+<a href="forside.html">
     <div id="logo"></div>
+    </a>
 
 
     </div>
@@ -26,6 +62,22 @@
             </li>
 
     </div>
+
+    <div id="kiwi">
+        SVG
+        <img src="bilder/kiwi.svg" height="50px" width="50px">
+    </div>
+
+
+    <footer>
+        <p>Andreas Paulsen</p>
+        <p>Contact information:
+            <a href="mailto:someone@example.com">
+                someone@example.com</a>.</p>
+        <p>
+            <strong>Note:</strong> This is not the official website of Supreme.</p>
+
+    </footer>
 
 
 

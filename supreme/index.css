@@ -16,8 +16,8 @@
 }
 
 p {
-    background: red;
-    color: white;
+    color: black;
+    font-size: 2em;
 }
 
 @keyframes order {
@@ -293,4 +293,11 @@ div h2 {
     .topnav input[type=text] {
         border: 1px solid #ccc;
     }
+}
+
+#kiwi {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
 }

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Supreme</title>
+    <link rel="stylesheet" href="produkter.css">
+    <script src="supreme.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+    <link rel="icon" href="bilder/icon.png">
+</head>
+
+<body>
+
+    <div id="orderanimation">
+        <font color="white">thank you for your order.</font>
+    </div>
+
+    <article>
+        <header>
+            <a href="index.html">
+                <div id="logo"></div>
+            </a>
+        </header>
+    </article>
+
+    <div id="menu">
+        <ul>
+            <li>
+                <a href="slideshow.html">* other products.</a>
+            </li>
+            <li>
+                <a href="tips.html">* essential tips to
+                    <br> avoid getting hacked.
+                </a>
+            </li>
+            <li>
+                <a href="#">* Blah blah blah... </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div id="produkter">
+
+        <div id="hoodie">
+
+            <h2>Supreme Bogo Hoodie,
+                <br>
+                <b>Heather grey</b>
+                <form method="get" action="#.html">
+                    <br> Size:
+                    <select id="stoerrelse">
+                        <option value="Small">S</option>
+                        <option value="Medium">M</option>
+                        <option value="Large">L</option>
+                        <option value="X-Large">XL</option>
+                    </select>
+                    <br> Quantity:
+                    <select id="antall">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <br>
+                    <br> First name :
+                    <input id="navn"></input>
+                    <br>
+                    <br>
+
+                    <button id="order" type="click">Order now</button>
+
+                </form>
+        </div>
+        </h2>
+    </div>
+
+
+    <article>
+        <div id="orders" class="live">
+            <p>
+                <b>all orders</b>
+                </font>
+
+                <div class="topnav">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="search..">
+                        <button type="submit">Submit</button>
+                        <--- Out of order </form>
+
+                </div>
+
+
+
+
+                <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+
+                <script>
+                    setup();
+                </script>
+
+        </div>
+    </article>
+
+
+    <footer>
+        <p>Andreas Paulsen</p>
+        <p>Contact information:
+            <a href="mailto:someone@example.com">
+                someone@example.com</a>.</p>
+        <p>
+            <strong>Note:</strong> This is not the official website of Supreme.</p>
+
+    </footer>
+
+
+</body>
+
+</html>

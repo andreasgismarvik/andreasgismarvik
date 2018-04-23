@@ -1,0 +1,26 @@
+html,
+body {
+    background: linear-gradient(whitesmoke, lightgrey);
+  font-family: 'Courier New', Courier, monospace;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.photo-before,
+.photo-after {
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.photo-before {
+  background-image: url(http://pmullen.com/codepen/pEruv9g.jpg);
+}
+
+.photo-after {
+  background-image: url(http://pmullen.com/codepen/dDhKpPR.jpg);
+  border-top: 1px solid #e4e4e4;
+}

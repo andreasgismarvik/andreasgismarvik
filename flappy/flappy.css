@@ -1,0 +1,38 @@
+#bird {
+    background-image: url("bird.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;   
+    position: absolute;
+    left: calc(50vw - 50px);
+    top: 20px;
+    top: 40vh;
+
+    filter: contrast(300%);
+}
+
+#sky {
+    background: linear-gradient(skyblue, turquoise, lightblue, skyblue);
+    height: 100vh;
+}
+
+#above,
+#below {
+    position: absolute;
+    left: 400px;
+    width: 30px; 
+    height: 150px; 
+    background: linear-gradient(lightgreen, greenyellow);
+    border: solid 1px darkgreen;
+}
+
+#above {
+    top: 0;
+}
+
+#below {
+    bottom: 0;
+}
+

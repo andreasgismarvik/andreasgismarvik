@@ -9,8 +9,13 @@
     left: calc(50vw - 50px);
     top: 20px;
     top: 40vh;
+    font-family: 'Courier New', Courier, monospace;
 
     filter: contrast(300%);
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 #sky {
@@ -22,8 +27,8 @@
 #below {
     position: absolute;
     left: 400px;
-    width: 30px; 
-    height: 150px; 
+    width: 80px;
+    height: 235px; 
     background: linear-gradient(lightgreen, greenyellow);
     border: solid 1px darkgreen;
 }
@@ -33,6 +38,18 @@
 }
 
 #below {
-    bottom: 0;
+    bottom: -8px;
 }
 
+#poeng {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+    height: 2em;
+    border: solid black 1px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+}

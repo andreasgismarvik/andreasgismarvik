@@ -63,6 +63,8 @@ function setup() {
             poeng = poeng + 10;
             divPoeng.innerHTML = "Points: " + poeng.toFixed(0);
             hoydeTilSoyler();
+            new Audio('coin.mp3').play()
+
         }
         above.style.left = above.xpos + "px";
 
@@ -76,26 +78,19 @@ function setup() {
         if (bird.xpos > above.xpos - 100 &&
             bird.xpos < above.xpos + 80 &&
             bird.ypos < top
-        )
+        ) {
 
 
-            if (bird.xpos > above.xpos - 100 &&
-                bird.xpos < above.xpos + 80 &&
-                bird.ypos < top
+            clearInterval(timer);
+            document.addEventListener("keydown", startPaaNy);
+            //poeng = poeng - 0.1;
+            //divPoeng.innerHTML = "Points: " + poeng.toFixed(0);
+            //poeng -= 1;
 
-            ) {
-
-                clearInterval(timer);
-                document.addEventListener("keydown", startPaaNy);
-                //poeng = poeng - 0.1;
-                //divPoeng.innerHTML = "Points: " + poeng.toFixed(0);
-                //poeng -= 1;
+            //bird.classList.add("hidden")
 
 
-
-                //bird.classList.add("hidden")
-
-            }
+        }
 
 
     }

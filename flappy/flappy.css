@@ -18,6 +18,28 @@
     visibility: hidden;
 }
 
+#sol {
+    position: absolute;
+    /* metoden under garanterer at solen står midt på himmelen 
+        uansett hvordan bruker endrer størrelse på displayet */
+    top: calc(10%);
+    left: calc(80%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+#sol {
+    animation: blink 1s alternate linear infinite;
+}
+
+@keyframes blink {
+    100% {
+        transform: scale(0.87);
+    }
+}
+
 #sky {
     background: linear-gradient(skyblue, turquoise, lightblue, skyblue);
     height: 100vh;
@@ -53,3 +75,7 @@
     font-size: 1.2em;
     font-weight: bold;
 }
+
+
+background: linear-gradient(lightgreen, greenyellow);
+    border: solid 1px darkgreen;

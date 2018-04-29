@@ -14,6 +14,11 @@
     filter: contrast(300%);
 }
 
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
 .hidden {
     visibility: hidden;
 }
@@ -40,6 +45,17 @@
     }
 }
 
+#skies {
+    position: absolute;
+    background-image: url("skies.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100vw;
+    height: 70vh;
+    bottom: -2vh;
+    filter: contrast(120%);
+}
+
 #sky {
     background: linear-gradient(skyblue, turquoise, lightblue, skyblue);
     height: 100vh;
@@ -51,16 +67,22 @@
     left: 400px;
     width: 80px;
     height: 235px; 
-    background: linear-gradient(lightgreen, greenyellow);
-    border: solid 1px darkgreen;
 }
 
 #above {
     top: 0;
+    background-image: url("pipe.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    filter: contrast(100%);
 }
 
 #below {
     bottom: -8px;
+    background-image: url("pipe.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #poeng {

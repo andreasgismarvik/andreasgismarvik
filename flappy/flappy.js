@@ -23,6 +23,8 @@ function setup() {
     let divPoeng = document.getElementById("poeng");
 
     let top;
+    let bottom;
+
 
     function hoydeTilSoyler() {
         top = Math.floor(Math.random() * SPENN);
@@ -79,8 +81,6 @@ function setup() {
             bird.xpos < above.xpos + 80 &&
             bird.ypos < top
         ) {
-
-
             clearInterval(timer);
             document.addEventListener("keydown", startPaaNy);
             //poeng = poeng - 0.1;
@@ -88,10 +88,20 @@ function setup() {
             //poeng -= 1;
 
             //bird.classList.add("hidden")
-
-
         }
 
+        if (bird.xpos > below.xpos - 100 &&
+            bird.xpos < below.xpos + 80 &&
+            bird.ypos < bottom > ypos
+        ) {
+            clearInterval(timer);
+            document.addEventListener("keydown", startPaaNy);
+            //poeng = poeng - 0.1;
+            //divPoeng.innerHTML = "Points: " + poeng.toFixed(0);
+            //poeng -= 1;
+
+            //bird.classList.add("hidden")
+        }
 
     }
 
